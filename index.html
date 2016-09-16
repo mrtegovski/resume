@@ -2,17 +2,16 @@
 <html lang="en">
 
 <head>
-    <title>Resume</title>
+    <title>Riste Tegovski</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="dist/css/main.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <div class="header-wrap">
-            <div class="header-wrap__img"></div>
+            <div class="header-wrap__img jsWrapImg"></div>
             <div class="header-wrap__txt">
                 <h1>I'm Riste Tegovski</h1>
                 <h2>web developer</h2>
@@ -32,15 +31,15 @@
                     </button>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 menu-center">
                     <ul class="nav navbar-nav nav-custom__link">
-                        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Experience</a></li>
-                        <li><a href="#">Education</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#expirience">Experience</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <!--<li><a href="#portfolio">Portfolio</a></li>-->
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -48,7 +47,7 @@
         </nav>
     </header>
     <!--About Section-->
-    <section class="about-wrap">
+    <section class="about-wrap" id="about">
         <div class="container">
             <div class="row">
                 <div class="about-title">
@@ -69,12 +68,166 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat lectus, imperdiet a facilisis tincidunt, dapibus eu lectus. Pellentesque orci erat, ullamcorper nec congue at, dictum vitae diam. Nunc semper risus ligula, aliquet facilisis augue auctor eget. Sed ut nulla dapibus, dapibus eros sed, placerat ligula. In feugiat gravida fermentum. Nulla euismod molestie nunc in facilisis. Pellentesque hendrerit fringilla rhoncus. Mauris condimentum eget nunc at bibendum. Phasellus gravida, odio id auctor porta, arcu sem suscipit lorem, sit amet suscipit elit ipsum vitae lacus. Cras vitae urna eget dolor interdum facilisis. Nullam molestie eu neque vel bibendum. Curabitur sollicitudin scelerisque libero, ut vehicula lorem tincidunt id. Cras vel mattis tellus. Pellentesque accumsan lobortis diam euismod finibus. Fusce fermentum luctus neque ut interdum. Vestibulum rhoncus non est ullamcorper volutpat.</p>
                         </div>
                     </article>
+                    <a class="btn btn-large btn-new" href="Riste Tegovski CV.doc" role="button" download>Download Resume</a>
+                    
                 </div>
             </div>
         </div>
     </section>
+    <!--Expirience Section-->
+    <section class="experience-wrap" id="expirience">
+        <div class="container">
+            <div class="section-title">
+                <h1>Work Experience</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="date-circle">
+                        <p>Oct,2015 Oct,2016</p>
+                    </div>
+                </div>
+                <div class="col-md-10 info-area">
+                    <article class="exp-box">
+                        <h4>Devvironment</h4>
+                        <h5>Front-End Developer</h5>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat lectus, imperdiet a facilisis tincidunt, dapibus eu lectus. Pellentesque orci erat, ullamcorper nec congue at, dictum vitae diam. Nunc semper risus ligula, aliquet facilisis augue auctor eget. Sed ut nulla dapibus.  
+                        </p>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="date-circle">
+                        <p>Oct,2015 Oct,2016</p>
+                    </div>
+                </div>
+                <div class="col-md-10 info-area">
+                    <article class="exp-box">
+                                                
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="date-circle">
+                        <p>Oct,2015 Oct,2016</p>
+                    </div>
+                </div>
+                <div class="col-md-10 info-area">
+                    <article class="exp-box">
+                        <h4>Devvironment</h4>
+                        <h5>Front-End Developer</h5>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat lectus, imperdiet a facilisis tincidunt, dapibus eu lectus. Pellentesque orci erat, ullamcorper nec congue at, dictum vitae diam. Nunc semper risus ligula, aliquet facilisis augue auctor eget. Sed ut nulla dapibus.  
+                        </p>
+                    </article>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--Education Section-->
+    <section class="education-wrap" id="education">
+        <div class="container">
+            <div class="section-title">
+                <h1>Education & Diplomas</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="date-circle">
+                        <p>Oct,2015 Oct,2016</p>
+                    </div>
+                </div>
+                <div class="col-md-10 info-area">
+                    <article class="edu-box">
+                        <h4>Devvironment</h4>
+                        <h5>Front-End Developer</h5>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat lectus, imperdiet a facilisis tincidunt, dapibus eu lectus. Pellentesque orci erat, ullamcorper nec congue at, dictum vitae diam. Nunc semper risus ligula, aliquet facilisis augue auctor eget. Sed ut nulla dapibus.  
+                        </p>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="date-circle">
+                        <p>Oct,2015 Oct,2016</p>
+                    </div>
+                </div>
+                <div class="col-md-10 info-area">
+                    <article class="edu-box">
+                                                
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="date-circle">
+                        <p>Oct,2015 Oct,2016</p>
+                    </div>
+                </div>
+                <div class="col-md-10 info-area">
+                    <article class="edu-box">
+                        <h4>Devvironment</h4>
+                        <h5>Front-End Developer</h5>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat lectus, imperdiet a facilisis tincidunt, dapibus eu lectus. Pellentesque orci erat, ullamcorper nec congue at, dictum vitae diam. Nunc semper risus ligula, aliquet facilisis augue auctor eget. Sed ut nulla dapibus.  
+                        </p>
+                    </article>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1">
+                    <div class="contact-info">
+                        <div class="contact-info__title">
+                            <h3>Contact me</h3>
+                        </div>
+                        <div class="contact-info__txt">
+                            <p><i class="fa fa-home" aria-hidden="true"></i> Branislav Nushikj 17, Skopje</p>
+                            <p><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:ristetegovski@gmail.com"> ristetegovski@gmail.com</a></p>
+                            <p><i class="fa fa-phone" aria-hidden="true"></i> 071294457</p>
+                            <p><i class="fa fa-skype" aria-hidden="true"></i> riste992</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-offset-3">
+                    <div class="social-info">
+                        <div class="social-info__title">
+                            <h3>Follow me</h3>
+                        </div>
+                        <div class="social-info__links">
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-1 col-md-2">
+                                    <a hreff="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="col-xs-2 col-sm-1 col-md-2">
+                                    <a hreff="#"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="col-xs-2 col-sm-1 col-md-2">
+                                    <a hreff="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="col-xs-2 col-sm-1 col-md-2">
+                                    <a hreff="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>Copyright <span>&copy;</span> Riste Tegovski 2016</p>
+            </div>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="dist/js/script.js"></script>
 </body>
 
 </html>
